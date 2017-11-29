@@ -1,0 +1,21 @@
+.adfaq .imagebutton{
+	width:15px;
+	height:15px;
+	cursor:pointer;
+}
+.adfaq input{
+	width:70px;
+}
+.adfaq .intorder{
+	width:30px;
+	text-align: center;
+}
+.adfaq .question{
+	width:241px;
+}
+.adfaq .answer{
+	width:241px;
+}
+.adfaq .submit{
+	width:50px;
+}

@@ -1,0 +1,18 @@
+.showPage{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.showPage a{font-size:13px;}
+.showPage a.page_off
+{
+	padding: 2px 6px;
+	color: #111111;
+	text-decoration: none;
+}
+.showPage a.page_off:hover
+{
+	color: #ffffff;
+	background: #0063DC;
+	text-decoration: none;
+}
+.showPage .page_on{padding: 2px 6px; font-weight: bold; font-size:13px; color:#000000;}

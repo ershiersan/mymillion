@@ -1,0 +1,76 @@
+.applyarea{
+	margin-top:10px;
+	display:inline-block;
+	font-size:14px;
+	text-align: left;
+}
+.applyarea .applytitle{
+	font-size:20px;
+	margin-bottom:10px;
+}
+.applyarea table{
+	border-collapse:collapse;
+}
+.applyarea tr{
+	border-collapse:collapse;
+}
+.applyarea td{
+	border: 1px solid #96c6ea;
+	padding-left: 10px;
+	font-size:14px;
+	width:500px;
+	height:25px;
+	text-align:left;
+}
+.applyarea .left{
+	background-color: #DBF1FF;
+	padding-left: 0px;
+	text-align:right;
+	width:200px;
+	color:#666666;
+}
+.applyarea .charge{
+	display: none;
+}
+.applyarea .prompt{
+	color:red;
+	text-align:left;
+}
+.applyarea .applybutton{
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+}
+.applyarea select{
+	width:50px;
+}
+.applyarea form{
+	margin-top:5px;
+}
+.applyarea .reminder{
+	line-height:26px;
+	display: block;
+	margin: 20px 0 5px 0px;
+	font-size: 14px;
+	color:red;
+}
+.applyarea .reminder a{
+	color:#314f81;
+	text-decoration:none;
+}
+/*.applyarea #filefather, .applyarea #fileimg{
+	width:100px;
+	display:inline-block;
+}*/
+.applyarea #imagelogo{
+	display: none;
+}
+.applyarea #href{
+	width:265px;
+}
+.applyarea #title{
+	width:265px;
+}
+.chargeprompt{
+	background-color: #FFEEEE;
+}

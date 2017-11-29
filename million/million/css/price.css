@@ -1,0 +1,14 @@
+.price .imagebutton{
+	width:15px;
+	height:15px;
+	cursor:pointer;
+}
+.price input{
+	width:70px;
+}
+.price .description{
+	width:200px;
+}
+.price .submit{
+	width:50px;
+}

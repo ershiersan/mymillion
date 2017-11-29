@@ -1,0 +1,103 @@
+.comments{
+	width: 90%;
+	display: inline-block;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	text-align: left;
+}
+.comments h2{
+	color: #b92722;
+}
+.listcomments{
+	text-align: left;
+	margin-top: 20px;
+	padding-left: 15px;
+	font-size: 14px;
+	background-color: #f3f3f3;
+	padding-bottom: 10px;
+	border-top: 1px solid #c0c0c0;
+	border-bottom: 1px solid #c0c0c0;
+}
+.listcomments div{
+	text-align: left;
+	width: 98%;
+}
+.listtitle{
+	padding-top: 30px;
+	font-weight: bold;
+	line-height: 25px;
+	border-bottom: 1px dotted #888888;
+	margin-bottom: 3px;
+	color:#003355;
+}
+.listcontent{
+	line-height: 25px;
+	word-wrap: break-word;
+	word-break: normal;
+	white-space: normal;
+}
+.listcontent span{
+	font-weight: bold;
+}
+.listcomments .listreplay{
+	width: 96%;
+	display: inline-block;
+	background-color: #ffffff;
+	padding: 5px;
+	padding-left: 10px;
+	line-height: 25px;
+	margin-top: 5px;
+	border: 1px solid #dedede;
+	word-wrap: break-word;
+	word-break: normal;
+	white-space: normal;
+}
+.listreplay span{
+	font-weight: bold;
+}
+.listcomments .divpage{
+	width: 100%;
+	text-align: center;
+}
+
+.newcomments{
+	width: 100%;
+	padding-top:10px;
+	padding-bottom:10px;
+	display:inline-block;
+	font-size:14px;
+	text-align: center;
+}
+.newcomments .newctitle{
+	font-weight: bold;
+	font-size:20px;
+	margin-bottom:10px;
+}
+.newcomments td{
+	/*padding-left: 30px;*/
+	font-size:14px;
+	width:300px;
+	height:25px;
+	text-align:left;
+}
+.newcomments .left{
+	padding-left: 0px;
+	text-align:right;
+	width:110px;
+	color:#666666;
+}
+.newcomments form{
+	margin-top:5px;
+}
+
+.newcomments #title, .newcomments #content{
+	width:500px;
+}
+#verify{
+	width:80px;
+}
+#imgverify{
+	margin-left:5px;
+	vertical-align:middle;
+	margin-bottom:5px;
+}

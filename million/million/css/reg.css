@@ -1,0 +1,57 @@
+.regarea{
+	display:inline-block;
+	font-size:13px;
+	text-align: left;
+	padding-bottom: 20px;
+}
+.regarea .regtitle{
+	font-size:20px;
+}
+.regarea td{
+	font-size:13px;
+	width:300px;
+	text-align:left;
+}
+.regarea .left{
+	text-align:right;
+	width:100px;
+	color:#666666;
+}
+.regarea input{
+	height:18px;
+	width:150px;
+	border:1px solid #D2D9D8;
+}
+.regarea select{
+	width:60px;
+}
+.regarea .regbutton , .regarea .loginbutton{
+	text-align:center;
+}
+.regarea .regbutton input{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.regarea .loginbutton input{
+	margin-top:10px;
+	width:80px;
+}
+.regtip{
+	color:red;
+	margin-left:10px;
+}
+#verify{
+	width:80px;
+}
+#imgverify{
+	margin-left:5px;
+	vertical-align:middle;
+	margin-bottom:5px;
+}
+.linkreg{
+	margin-left:5px;
+}
+.linkreg a{
+	color:#314F81;
+	text-decoration:none;
+}

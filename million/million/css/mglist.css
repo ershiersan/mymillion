@@ -1,0 +1,32 @@
+.mylist{
+	font-size: 12px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.mylist table{
+	border-collapse:collapse;
+	width:98%;
+}
+.mylist tr{
+	border-collapse:collapse;
+	height: 50px;
+}
+.mylist td{
+	border: 1px solid #96c6ea;
+	word-wrap: break-word;
+	word-break: normal;
+	white-space: normal;
+}
+.mylist a{
+	color: #3b59ff;
+	text-decoration:none;
+}
+.mylist a:hover{
+	text-decoration:underline;
+}
+.mylist .trhead{
+	background-color: #DBF1FF;
+	height: 40px;
+}

@@ -1,0 +1,286 @@
+body{
+	font-family: Verdana, Tahoma, Arial;
+	scroll-x:none;
+	text-align: center;
+	margin: 0px;
+	background :  url(../images/body_bg.jpg) repeat-x left top;
+	background-color: #34A144;
+}
+.title{
+	z-index: -1;
+	position:absolute;
+	top:0px;
+	left: 0px;
+	width: 100%;
+	height: 680px;
+	display: block;
+	overflow-y: visible ;
+	overflow-x: hidden;
+	text-align: left;
+	white-space: nowrap;
+	background-color: #8FD4F5;
+}
+.marspan{
+	width: 2048px;
+	height: 300px;
+	display: inline-block;
+	background :  url(../images/cloud.jpg) repeat left top;
+
+}
+.hat{
+	width: 1000px;
+	height: 90px;
+	display: inline-block;
+	text-align: left;
+	white-space: nowrap;
+}
+.navmargin{
+	width: 100%;
+	height:10px;
+	display: block;
+}
+.navigation{
+	width: 100%;
+	height:60px;
+	display: block;
+	text-align: center;
+}
+.navigation span{
+	display: inline-block;
+	height:60px;
+	white-space: nowrap;
+	text-align: left;
+}
+.navitem1{
+	width:145px;
+	background : url(../images/navmain.png) no-repeat left top;
+}
+.navitem2{
+	width:175px;
+	background : url(../images/navadd.png) no-repeat left top;
+}
+.navitem3{
+	width:175px;
+	background : url(../images/navhistory.png) no-repeat left top;
+}
+.navitem4{
+	width:145px;
+	background : url(../images/navfaq.png) no-repeat left top;
+}
+.navitem5{
+	width:160px;
+	background : url(../images/navcontract.png) no-repeat left top;
+}
+.navitem6{
+	width:175px;
+	background : url(../images/navmanage.png) no-repeat left top;	
+}
+.navigation a{
+	width:100%;
+	height:100%;
+	display: inline-block;
+	line-height: 60px;
+	line-height: 60px;
+	font-size: 16px;
+	font-family: 宋体;
+	text-decoration:none;
+	font-weight: bold;
+	cursor: pointer;
+}
+.navigation a span{
+	margin-left: 70px;
+}
+.navigation a:link {color: #ffffff;text-decoration:none;}
+.navigation a:visited {color: #ffffff;text-decoration:none;}
+.navigation a:hover {color: #ff0765;text-decoration:none;}
+.navigation a:active {color: #ffffff;text-decoration:none;}
+.head{
+	width: 1000px;
+	height: 130px;
+	display: inline-block;
+	text-align: left;
+	white-space: nowrap;
+	/*background-color: #40d0c0;*/
+}
+.head span{
+	vertical-align: bottom;
+}
+.heightbox{
+	height: 100%;
+	width: 1px;
+	display: inline-block;
+}
+.logo {
+	background : url(../images/logo.png) no-repeat left top;
+	color:#204E65;
+	font-size:35px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 60px;
+	height: 70px;
+	width: 274px;
+	display: inline-block;
+	vertical-align: top;
+}
+.headmiddle {
+	height: 80px;
+	width: 500px;
+	display: inline-block;
+	vertical-align: top;
+}
+.headmiddle .summary{
+	font-size: 14px;
+	line-height: 18px;
+	width: 100%;
+	height:30px;
+	display: block;
+	text-align: left;
+	color:#B92722;
+	font-weight: bold;
+	/*background-color: #cccccc;*/
+}
+.headmiddle .summary span{
+	height: 18px;
+	display: inline-block;
+}
+.summary .point{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+}
+.summary .point img{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+}
+.headmiddle .price{
+	font-size: 23px;
+	font-weight: bold;
+	width: 100%;
+	height:30px;
+	display: block;
+	text-align: left;
+	/*background-color: #eeeeee;*/
+	line-height: 30px;
+}
+.headmiddle .price span{
+	margin-left: 10px;
+}
+.headright {
+	height: 60px;
+	width: 150px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+.headright .firstrow, .headright .secondrow{
+	font-size: 15px;
+	height: 30px;
+	width: 100%;
+	display: block;
+	line-height: 30px;
+}
+.headright .firstrow span, .headright .secondrow span{
+	margin-left: 3px;
+	margin-right: 3px;
+	font-family: arial;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 30px;
+	color:yellow;
+}
+
+.body{
+	background : url(../images/home_bg.png) no-repeat center top;
+	/*width: 1000px;*/
+	width: 100%;
+	height: auto;_height:500px;min-height:600px;
+	display: block;
+	text-align: center;
+	/*background: #cccccc;*/
+}
+.main{
+	width: 1000px;
+	height: auto;_height:500px;min-height:600px;
+	display: inline-block;
+	background: #ffffff;
+	white-space: nowrap;
+}
+.main .mainleft{
+	vertical-align: top;
+	display: inline-block;
+	width: 20%;
+	height: 100%;
+	/*background: #123456;*/
+}
+.main .mainright{
+	text-align: center;
+	padding-top: 10px;
+	vertical-align: top;
+	display: inline-block;
+	width: 80%;
+	height: 100%;
+	/*background: #654321;*/
+	
+}
+.home{
+	width: 1000px;
+	height: 1000px;
+	display: inline-block;
+	background :  url(../images/main_bg.png) repeat left top;
+	position:relative;
+}
+.home span{
+	diplay:inline-block;
+	position:absolute;
+	z-index:100;
+}
+.home span a,.home span img{
+	width:100%;
+	height:100%;
+	border:0px;
+}
+.tail{
+	width: 1000px;
+	display: inline-block;
+	background-color: #DBFAFA;
+}
+.tail .mailto{
+	font-size:13px;
+	display: block;
+	height:40px;
+	line-height: 40px;
+}
+.tail .mailto a{
+	font-weight: bold;
+	color: #4765e3;
+}
+.tail .tongji{
+	font-size:13px;
+	display: block;
+	height:35px;
+	line-height: 30px;
+}
+.shang {
+    position: absolute;
+    cursor: pointer;
+    display: inline-block;
+    top: 100px;
+    right: 100px;
+    width: 75px;
+    height: 75px;
+    background :  url(../images/shang.png) no-repeat left top;
+    background-size: 100% 100%;
+}
+.shang-wechat-qrcode {
+    position: absolute;
+    z-index: 101;
+    cursor: pointer;
+    display: inline-block;
+    padding-top: 28px;
+    width: 200px;
+    height: 274px;
+    background :  url(../images/shang_wechat_qrcode.jpg) no-repeat left top;
+    background-position: 0px 28px;
+    background-size: 200px 274px;
+}

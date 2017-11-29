@@ -1,0 +1,31 @@
+.adcomm{
+	font-size: 13px;
+}
+.adcomm span{
+	word-wrap: break-word;
+	word-break: normal;
+	white-space: normal;
+	display: inline-block;
+}
+.adcomm .ctitle{
+	text-align: left;
+	width:115px;
+}
+.adcomm .ccontent{
+	text-align: left;
+	width:245px;
+}
+.adcomm .datetime{
+	width:100px;
+}
+.adcomm .status{
+	width:60px;
+}
+.adcomm textarea{
+	width:160px;
+}
+.adcomm .imagebutton{
+	width:15px;
+	height:15px;
+	cursor:pointer;
+}
